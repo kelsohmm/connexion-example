@@ -1,5 +1,8 @@
 # connexion-example
 
+This is code & installation instructions for Medium article:
+https://medium.com/@stefanczykb/connexion-production-grade-rest-api-in-150-lines-of-python-ede3ab7f1555
+
 ## Intro
 
 A minimal example of a backend server useful in real world application. The data model is simplistic - we'll have 2 tables: Users and Articles,
@@ -22,6 +25,11 @@ After cloning the repository, create a new Python >3.7 virtual env and activate 
 Next, install all requirements with:
 ```
 pip install -r requirements.txt
+```
+
+Initialize database and add mock data:
+```
+python setup_db.py
 ```
 
 Run with:
